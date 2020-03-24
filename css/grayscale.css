@@ -46,8 +46,8 @@
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    padding: .5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    padding: .10rem 0;
+    color: #deeb28;
   }
   #mainNav .nav-link {
     transition: none;
@@ -78,9 +78,9 @@
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #deeb28;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #deeb28;
   }
 }
 
@@ -90,7 +90,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(179, 146, 146, 0.7) 75%, #4ac07f 120%), url("../img/pagolimelogo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -146,25 +146,25 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #16af74;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #16af74;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #16af74;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #deeb28 !important;
 }
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background: linear-gradient(to bottom, #16af74 0%, #deeb28 75%, #deeb28 200%);
 }
 
 .about-section p {
@@ -182,7 +182,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #deeb28;
   }
 }
 
@@ -196,7 +196,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #deeb28;
     border-width: .25rem;
     width: 30%;
   }
@@ -204,7 +204,7 @@
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(143, 197, 133, 0.1) 0%, rgba(219, 203, 203, 0.5) 75%, #5eb362 110%), url("../img/amarillo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -228,7 +228,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #16af74;
 }
 
 .contact-section .card h4 {
@@ -239,7 +239,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #16af74;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -281,15 +281,15 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #16af74 !important;
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #deeb28 !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #deeb28 !important;
 }
 
 footer {
